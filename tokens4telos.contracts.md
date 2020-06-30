@@ -22,11 +22,11 @@ icon: @ICON_BASE_URL@/@TOKEN_ICON_URI@
 
 Creates a new token with symbol {{asset_to_symbol_code maximum_supply}} to be managed by {{issuer}}.
 
-This action will not result any any tokens being issued into circulation.
+This action will not result any tokens being issued into circulation.
 
 {{issuer}} will be allowed to issue tokens into circulation, up to a maximum supply of {{maximum_supply}}.
 
-RAM will deducted from {{$action.account}}’s resources to create the necessary records.
+RAM will be deducted from {{issuer}}’s resources to create the token’s stats table.
 
 <h1 class="contract">issue</h1>
 
