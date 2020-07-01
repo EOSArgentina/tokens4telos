@@ -9,4 +9,8 @@ To create a new token use the command:
 cleos -u https://telos.eosargentina.io push action tokens4telos create '["your_account", "1000000000.0000 TOK"] -p your_account
 
 This will create the token TOK with a maximum supply equal to 1000000000.0000 TOK.
-The issuer will be "your_account".
+The issuer will be "your_account". To issue tokens use
+
+cleos -u https://telos.eosargentina.io push action tokens4telos issue '["your_account", "9000.0000 TOK", "some memo"] -p your_account
+
+After this, 9000.0000 TOK will be available at your_account.
