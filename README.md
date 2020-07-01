@@ -6,7 +6,7 @@ is paid by the issuer. These are the only changes. As a result, anyone can creat
 
 To create a new token use the command:
 
-cleos -u https://api.eosargentina.io push action tokens4telos create '["your_account", "1000000000.0000 TOK"] -p your_account
+cleos -u https://telos.eosargentina.io push action tokens4telos create '["your_account", "1000000000.0000 TOK"] -p your_account
 
 This will create the token TOK with a maximum supply equal to 1000000000.0000 TOK.
 The issuer will be "your_account".
